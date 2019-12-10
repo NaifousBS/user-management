@@ -1,0 +1,20 @@
+1567540902630	Rename package 'com.example.demo.models'
+1567541093551	Delete element
+1567542972040	Rename type 'UserService'
+1567542982073	Rename type 'UserRepository'
+1567543046520	Rename type 'UserServiceI'
+1567543055987	Rename type 'UserRepositoryI'
+1567545106033	Rename type 'UserRepository'
+1567545755800	Rename type 'UserServiceImpl'
+1567545881410	Rename type 'UserRepositoryCustom'
+1567546399083	Copy package
+1567546409018	Copy package
+1567546432068	Delete element
+1567546440271	Delete element
+1567546473440	Move compilation unit
+1567546484259	Move compilation unit
+1567546494590	Move compilation unit
+1567546504002	Move compilation unit
+1567546513502	Move compilation unit
+1567546518088	Delete element
+1567546525782	Delete elements

@@ -1,0 +1,31 @@
+<mat-card>
+    <h2>Benutzer hinzufügen</h2>
+    <form novalidate #userForm="ngForm">
+        <div class="example-button-row">
+            <button mat-raised-button color="warn" routerLink="/users">
+                <mat-icon>arrow_back</mat-icon> Zurück
+            </button>
+            <button mat-raised-button color="primary" (click)="addUser(user)">
+                <mat-icon>save</mat-icon> Speichern
+            </button>
+        </div>
+        <br>
+        <div class="example-container">
+
+            <mat-form-field>
+                <input matInput placeholder="Nachname" name="lastname" [(ngModel)]="user.lastname">
+            </mat-form-field>
+
+            <mat-form-field>
+                <input matInput placeholder="Vorname" name="firstname" [(ngModel)]="user.firstname">
+            </mat-form-field>
+            <br>
+            <mat-form-field>
+                <input matInput placeholder="Email" name="email" [(ngModel)]="user.email">
+            </mat-form-field>
+            <mat-form-field>
+                <input matInput placeholder="Alter" type="number" name="age" [(ngModel)]="user.age">
+            </mat-form-field>
+        </div>
+    </form>
+</mat-card>
